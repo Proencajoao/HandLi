@@ -1,0 +1,32 @@
+.container-fluid {
+    background-color: #005452;
+    color: white;
+    height: 100%;
+}
+
+.titulo {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.conta {
+    height: 8%;
+    width: 80%;
+    margin-left: 8%;
+    font-size: 20px;
+}
+
+.caixa-tema {
+    background: #265a59;
+    height: 20%;
+    width: 80%;
+    border: solid 2px black;
+}
+
+.caixa-fonte {
+    background: #265a59;
+    height: 22%;
+    width: 80%;
+    margin-top: 10px;
+    border: solid 2px black;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "handli",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

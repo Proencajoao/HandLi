@@ -1,0 +1,17 @@
+<ion-buttons>
+  <ion-menu-button class="menu" menu="main-menu"></ion-menu-button>
+</ion-buttons>
+<ion-content [fullscreen]="true">
+  <div class="d-flex justify-content-center" id="conteudo">
+    <div id="conteudo">
+      <ion-img src="{{gesto.imagem || '../../assets/img/logo.png'}} "></ion-img>
+    </div>
+    <div class="fixed-bottom" id="footer">
+      <div class="ms-4 mb-5 mt-5">
+        <input type="text" placeholder="Insira a Palavra" [(ngModel)]="palavra">
+        <button type="button" class="ms-5 btn btn-outline-light" (click)="traduzir()">Traduzir</button>
+      </div>
+    </div>
+  </div>
+</ion-content>
+
